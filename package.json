@@ -1,0 +1,30 @@
+{
+  "name": "lifelike-wasm",
+  "version": "1.0.0",
+  "description": "Lifelike Automata with Rust and WASM",
+  "main": "wasm_game_of_life.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/iCalculated/lifelike-wasm"
+  },
+  "files": [
+    "wasm_game_of_life_bg.wasm",
+    "wasm_game_of_life.d.ts"
+  ],
+  "types": "wasm_game_of_life.d.ts",
+  "keywords": [
+    "life",
+    "wasm",
+    "js"
+  ],
+  "author": "Sasha Hydrie",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {}
+}
